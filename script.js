@@ -1,6 +1,6 @@
 let userName = prompt("hello, who is this?");
 
-if (userName === Admin){
+if (userName === "Admin"){
     let password = prompt("Whats the password?");
 
     if (password === "theMaster"){
@@ -9,7 +9,7 @@ if (userName === Admin){
         alert("password incorect!");
     }
 }else if (userName === "" || null){
-    alert("cancled")
+    alert("cancled");
 }else{
-    alert("Try again")
+    alert("Try again");
 }
